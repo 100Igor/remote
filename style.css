@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.html {
+    height: 1500px;
+}
+body {
+    background-color: #FEFEFA;
+    font-family: montserrat, sans-serif;
+    max-width: 1200px;
+    max-height: 1200px;
+    /*min-height: 100%;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resume {
+    display: flex;
+    padding-top: 0px;
+    max-width: 1200px;
+    max-height: 3000px;
+}
+
+
+/* ЛЕВАЯ ЧАСТЬ РЕЗЮМЕ  ЛЕВАЯ ЧАСТЬ РЕЗЮМЕ  ЛЕВАЯ ЧАСТЬ РЕЗЮМЕ  ЛЕВАЯ ЧАСТЬ РЕЗЮМЕ */
+
+.l_side {
+    background-color: #494E5F;
+    max-width: 500px;
+    max-height: 100%;
+}
+
+
+.data {
+    max-width: 500px;
+    color: #FFE7D4;
+    margin-top: 50px;
+    border-spacing: 20px;
+}
+.avatar {
+    display: block;
+    max-width: 300px;
+    max-height: 300px;
+    /* float: left;
+    width: 25%; */
+    margin:auto;
+}
+
+.h1 {
+    display: block;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-top: 30px;
+}
+.h4 {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-bottom: 30px; padding-top: 20px;
+}
+
+.line {
+    max-width: 500px;
+    text-align: center;
+    color: #FFE7D4;
+    height: 3px;
+}
+
+.spisok_l {
+    max-width: 500px;
+    color: #FFE7D4;
+    line-height: 35px;
+    padding-bottom: 30px;
+    margin-left: auto; margin-right: auto;
+}
+
+.text_l {
+    color: #FFE7D4;
+    line-height: 35px;
+    font-size: 18px;
+    /*max-width: 450px;*/
+    max-width: 90%;
+    padding-top: 10px; padding-bottom: 50px;
+}
+
+.p_l {
+    /*padding-left: 50px;*/
+    padding-left: 10%;
+}
+
+.h3_l {
+    font-size: 28px;
+    font-weight: 600;
+    padding-left: 10%; padding-top: 20px; padding-bottom: 20px;
+    letter-spacing: 2px;
+    }
+
+.spisok_l ul {
+    padding-left: 70px; padding-bottom: 20px; padding-top: 10px;
+    font-size: 18px;
+}
+
+
+.spisok_l a {
+    color: #FFE7D4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F7F7E6;
+    font-weight: 600;
+}
+
+.l_side div:first-child {
+    margin-top: 50px;
+}
+
+.l_side div:last-child {
+    margin-bottom: 50px;
+}
+
+/* ПРАВАЯ ЧАСТЬ РЕЗЮМЕ  ПРАВАЯ ЧАСТЬ РЕЗЮМЕ  ПРАВАЯ ЧАСТЬ РЕЗЮМЕ  ПРАВАЯ ЧАСТЬ РЕЗЮМЕ */
+
+.r_side {
+    /*width: 58.33%;*/
+    background-color: #f7f7e6;
+    max-width: 700px;
+}
+
+.r_side div:first-child {
+    margin-top: 50px;
+}
+
+
+.spisok_r {
+    display: block;
+    max-width: 85%;
+    background-color: #F7F7E6;
+    color: #494E5F;
+    font-size: 18px;
+    line-height: 35px;
+    margin-left: auto; margin-right: auto; margin-bottom: 50px;
+}
+
+.spisok_r ul {
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.h3_r {
+    background-color: #FFE7D4;
+    max-width: 550px;
+    font-size: 28px;
+    font-weight: 600;
+    padding-left: 40px; padding-top: 10px; padding-bottom: 10px;
+    letter-spacing: 2px;
+    }
+
+.p_r {
+    padding-left: 40px; padding-top: 20px;
+    max-width: 100%;
+}
+
+        /*СЧЕТЧИК / СЧЕТЧИК / СЧЕТЧИК / */
+    
+    .footer{
+    position: absolute;
+    bottom: 10px;
+    background-color: #f7f7e6;
+    }
+            
+    .count {
+    /*position: absolute;*/
+    float: right;
+    color: #cccccf;
+    font-size: 14px;
+}
+
+@media (max-width: 1000px){
+
+    /* ЛЕВАЯ СТОРОНА*//* ЛЕВАЯ СТОРОНА*//* ЛЕВАЯ СТОРОНА*//* ЛЕВАЯ СТОРОНА*/
+
+    .l_side {
+        /*max-width: 420px;*/
+        max-width: 41.67%;
+        max-height: 100%;
+    }
+
+    .avatar {
+        /*max-width: 200px; max-height: 200px;*/
+        width: 60%;
+        height: 60%
+    }
+
+    .h1 {
+        display: block;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        padding-top: 20px;
+    }
+    .h4 {
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+        font-weight: 400;
+        letter-spacing: 1px;
+        padding-bottom: 20px; padding-top: 10px;
+    }
+
+    .text_l {
+        color: #FFE7D4;
+        line-height: 30px;
+        font-size: 16px;
+        /*max-width: 450px;*/
+        max-width: 90%;
+        padding-top: 10px; padding-bottom: 10px;
+    }
+
+    .p_l {
+        padding-left: 10%;
+    }
+    
+    .h3_l {
+        font-size: 20px;
+        font-weight: 500;
+        padding-left: 10%; padding-top: 15px; padding-bottom: 15px;
+        letter-spacing: 1px;
+        }
+    
+    .spisok_l ul {
+        padding-left: 10%; padding-bottom: 10px; padding-top: 10px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+        
+            /* ПРАВАЯ СТОРОНА*/     /* ПРАВАЯ СТОРОНА*/     /* ПРАВАЯ СТОРОНА*/
+
+    .r_side {
+        /*max-width: 580px;*/
+        max-width: 58.33%;
+        max-height: 100%;
+        background-color: #F7F7E6;
+    }
+
+    .spisok_r {
+        display: block;
+        max-width: 85%;
+        background-color: #F7F7E6;
+        color: #494E5F;
+        font-size: 16px;
+        line-height: 30px;
+        margin-left: auto; margin-right: auto; margin-bottom: 0px;
+    }
+    
+    .h3_r {
+        background-color: #FFE7D4;
+        max-width: 85%;
+        font-size: 20px;
+        font-weight: 500;
+        padding-left: 20px; padding-top: 10px; padding-bottom: 10px;
+        letter-spacing: 1px;
+        }
+    
+    .p_r {
+        padding-left: 20px; padding-top: 10px;
+        max-width: 85%;
+    }
+
+    .spisok_r ul {
+        padding-left: 8%; padding-bottom: 10px; padding-top: 10px;
+        font-size: 16px;
+        max-width: 85%;
+    }
+    
+}
+        /*СЧЕТЧИК / СЧЕТЧИК / СЧЕТЧИК / */
+    
+.footer{
+    position: absolute;
+    bottom: 10px;
+    background-color: #f7f7e6;
+}
+    
+.count {
+    /*position: absolute;*/
+    float: right;
+    color: #cccccf;
+    font-size: 14px;
+}
+
+
+@media (max-width: 550px)
+{
+    .body {
+        margin-left: 0px;
+        margin-right: 0xp;
+    }
+
+    .l_side {
+        max-width: 41.67%;
+        max-height: 100%;
+    }
+
+    .spisok_l {
+        line-height: 25px;
+        font-size: 14px;
+    }
+    
+    .spisok_l ul {
+        padding-left: 10%; padding-bottom: 10px; padding-top: 10px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .text_l {
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    .h1 {
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        padding-top: 15px;
+    }
+    .h4 {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        padding-bottom: 20px; padding-top: 10px;
+    }
+
+    /* ПРАВАЯ СТОРОНА*/     /* ПРАВАЯ СТОРОНА*/     /* ПРАВАЯ СТОРОНА*/
+    
+    .r_side {
+        max-width: 58.33%;
+        max-height: 100%;
+    }
+
+    .avatar {
+        max-width: 60%;
+        max-height: 60%;
+    }
+
+    .spisok_r {
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .spisok_r ul {
+        padding-left: 10%; padding-bottom: 10px; padding-top: 10px;
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    .h3_r {
+        max-width: 100%;
+        font-size: 20px;
+        font-weight: 500;
+        padding-left: 0px; padding-top: 10px; padding-bottom: 10px;
+        letter-spacing: 1px;
+        text-align: center;
+        }
+    
+    .p_r {
+        padding-left: 10px;
+        padding-top: 10px;
+        max-width: 100%;
+    }
+        /*СЧЕТЧИК / СЧЕТЧИК / СЧЕТЧИК / */
+    
+    .footer{
+        position: absolute;
+        bottom: 10px;
+        background-color: #f7f7e6;
+    }
+
+    .count {
+        /*position: absolute;*/
+        float: right;
+        color: #cccccf;
+        font-size: 10px;
+        margin-right: 30зч; margin-bottom: 0px
+    }
+} 
